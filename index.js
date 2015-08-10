@@ -4,7 +4,6 @@ var rangeParser = require('range-parser');
 var torrentStream = require('torrent-stream');
 var url = require('url');
 
-var engine;
 var stream = null;
 var selected_file = { length: 0 };
 var server = http.createServer();
@@ -17,7 +16,7 @@ if (!magnet) {
   return console.log('EXAMPLE USAGE:\n\tnode index.js "magnet:?xt=urn:sha1:YNCKHTQCWBTRNJIV4WNAE52SJUQCZO5C"')
 }
 
-engine = torrentStream(magnet, { connections: 500, verify: true, dht: 1000, tracker: true });
+var engine = torrentStream(magnet, { connections: 500, verify: true, dht: 1000, tracker: true });
 
 server.on('request', function(request, response) {
   if (url.parse(request.url).pathname === '/favicon.ico')
