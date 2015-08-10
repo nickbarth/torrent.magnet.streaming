@@ -1,5 +1,5 @@
 {
-  "name": "nodestream",
+  "name": "torrent.magnet.streaming",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
