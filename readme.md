@@ -1,6 +1,7 @@
 # Command Line Torrent Magnet Streaming
 
-Try it out and watch the 2008 Blender Foundation video. http://bbb3d.renderfarming.net/download.html
+Try it out and watch the 2008 Blender Foundation video.
+http://bbb3d.renderfarming.net/download.html
 
 ```bash
 node index.js
