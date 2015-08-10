@@ -1,4 +1,4 @@
-# Command Line Torrent Streaming
+# Magnet Torrent Streaming
 
 Try it out and watch the 2008 Blender Foundation video.
 http://bbb3d.renderfarming.net/download.html
